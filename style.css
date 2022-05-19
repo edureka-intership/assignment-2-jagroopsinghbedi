@@ -1,0 +1,62 @@
+.background_hero{
+    background-image: linear-gradient(180deg, #0000003f 0%, #4f070700 100%), url('assets/hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 480px;
+}
+
+.logo{
+    background-color: white;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    font-size: 5rem;
+    font-weight: bold;
+    color: red;
+}
+
+.quick_searches{
+  color: #192f60;
+}
+
+.discover_restaurants{
+    color: #8c96ab;
+}
+
+.card{
+    width: 360px;
+    height: 160px;
+    box-shadow: 0px 3px 6px #00000029;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0;
+}
+
+.card_img{
+    height: 160px;
+    border:none;
+}
+
+.card_title{
+    text-align: left;
+    color: #192f60;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card_description{
+    text-align: left;
+    color: #8c96ab;
+}
+
+.search_icon{
+    position: absolute;
+    bottom: 18px;
+    margin-left: 15px;
+    color: #636f88;
+}
+
+.restaurant_selector{
+    position: relative;
+}
